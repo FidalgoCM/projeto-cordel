@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+@font-face{
+    font-family: 'bold';
+    src: url('fonts/PassionOne-Bold.ttf') format('truetype');
+}
+
+:root{
+    --font01: 'bold', cursive;
+    --font02: 'Sriracha', cursive;
+}
+
+*{
+    margin: 0px;
+}
+
+body{
+    background-color: burlywood;
+}
+
+header{
+    max-height: 100vh;
+    background-color: black;
+    text-align: center;
+}
+
+header > h1{
+    font-family: var(--font01);
+    font-size: 8.5vw;
+    font-weight: bold;
+    color: white;
+    padding-top: 50px;
+}
+
+header p,a{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-decoration: none;
+    padding-bottom: 50px;
+}
+
+header p:hover{
+    text-decoration: underline;
+}
+
+header a{
+    font-weight: bold;
+}
+
+/*Sessão 01*/
+
+#c01{
+    background-color: white;
+}
+
+section#c01 p{
+    font-family: var(--font02);
+    font-size: 3.5vw;
+    font-weight: lighter;
+    padding: 60px 0px 100px 30px;
+    line-height: 2.em;
+}
+
+/*Sessão 02*/
+
+#c02{
+    background: url('imagens/background001.jpg') right center no-repeat fixed;
+    background-size: cover;
+    box-shadow:  inset 0px 2px 10px black;
+}
+
+section#c02 p{
+    font-family: var(--font02);
+    font-size: 3.5vw;
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.432);
+    font-weight: lighter;
+    margin: 50px 0px 60px 30px;
+    padding: 5px;
+    line-height: 2.1em;
+}
+
+/*Sessão 03*/
+
+#c03{
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+section#c03 p{
+    font-family: var(--font02);
+    font-size: 3.5vw;
+    font-weight: lighter;
+    padding: 60px 0px 0px 30px;
+    line-height: 2.em;
+}
+
+/*Sessão 04*/
+
+#c04{
+    background: url('imagens/background002.jpg') left bottom no-repeat fixed;
+    background-size: cover;
+    box-shadow:  inset 0px 2px 10px rgba(0, 0, 0, 0.603);
+}
+
+section#c04 p{
+    font-family: var(--font02);
+    font-size: 3.5vw;
+    color: white;
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.432);
+    font-weight: lighter;
+    margin: 50px 0px 60px 30px;
+    padding: 5px;
+    line-height: 2.1em;
+}
+
+/*Sessão 05*/
+
+#c05{
+    background-color: white;
+    padding-bottom: 60px;
+}
+
+section#c05 p{
+    font-family: var(--font02);
+    font-size: 3.5vw;
+    font-weight: lighter;
+    padding: 60px 0px 0px 30px;
+    line-height: 2.em;
+}
+
+/*Footer*/
+
+footer{
+    background-color: black;
+}
+
+footer p{
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+footer a{
+    font-weight: bold;
+    padding: 0px;
+}
