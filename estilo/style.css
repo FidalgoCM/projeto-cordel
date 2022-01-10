@@ -7,6 +7,7 @@
 :root{
     --font01: 'Passion One', cursive;
     --font02: 'Sriracha', cursive;
+    --font03: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 *{
@@ -34,7 +35,7 @@ header > h1{
 
 header p,a{
     color: white;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--font03);
     font-size: 1em;
     text-decoration: none;
     padding-bottom: 50px;
@@ -115,6 +116,7 @@ section#c04 p{
     margin: 50px 0px 60px 30px;
     padding: 5px;
     line-height: 2.1em;
+    text-shadow: 1px 1px 0px black;
 }
 
 /*Sessão 05*/
